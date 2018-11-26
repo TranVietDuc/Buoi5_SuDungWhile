@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var total = 0;
+    var i =1 ;
+    var numberIn = 0;
+    while( numberIn != "-1")
+    {
+        numberIn= parseInt(prompt("Nhap vao cac so muon tinh tong, ket thuc khi nhap vao  '-1'"));
+        if ( numberIn == "-1")
+            break;
+        document.write("so vua nhap vao thu " + i  + " la " + numberIn + '<br>');
+        total += numberIn;
+        i++;
+    }
+    document.write(" Tong day so vua nhap la " + total);
+</script>
+</body>
+</html>
